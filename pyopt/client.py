@@ -54,7 +54,7 @@ class PriceHistory():
         ----
         List[str]: A list of ticker symbols.
         """        
-        return self._symbol
+        return self._symbols
     
     def _build_data_frames(self) -> pd.DataFrame:
         """Builds a data frame with all the price data.
